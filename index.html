@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Computer Science</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script defer src="script.js"></script>
+
+
+</head>
+<body>
+    <div class="max-w-6xl mx-auto py-8">
+    <h1 class="text-3xl font-bold mb-6 text-center">Course Computer Science</h1>
+    <div class="flex flex-wrap gap-4 mb-8">
+      <button class="filter-btn bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" data-category="All">All</button>
+      <button class="filter-btn bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" data-category="Python">Python</button>
+      <button class="filter-btn bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" data-category="Java">Java</button>
+      <button class="filter-btn bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" data-category="SQL">SQL</button>
+      <button class="filter-btn bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" data-category="Go">Go</button>
+    </div>
+    <div id="productContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </div><div class="container" id="container-card"> </div>
+</body>
+</html>
